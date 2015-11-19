@@ -339,6 +339,7 @@ local ua_browser_matchers = {
     , {"Opera Mobi"    , ua_basic}
     , {"Opera"         , ua_basic}
     , {"MSIE"          , ua_keyword("MSIE ")}
+    , {"Trident/7.0;"  , ua_keyword("IE11.0")}
     , {"Safari"        , ua_basic}
     , {"Firefox"       , ua_keyword("Firefox/")}
 }
